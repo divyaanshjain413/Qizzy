@@ -1,0 +1,92 @@
+{
+    "Questions": [
+        {
+            "id": 0,
+            "q": "L'identifiant de format '%i' est également utilisé pour quel type de données ?",
+            "a": [
+                {
+                    "text": "char",
+                    "isCorrect": false
+                },
+                {
+                    "text": "float",
+                    "isCorrect": false
+                },
+                {
+                    "text": "int",
+                    "isCorrect": true
+                },
+                {
+                    "text": "double",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "q": "Lequel des éléments suivants est un type de données défini par l'utilisateur ?",
+            "a": [
+                {
+                    "text": "typedef int Boolean;",
+                    "isCorrect": false
+                },
+                {
+                    "text": "typedef enum {Mon, Tue, Wed, Thu, Fri} Workdays;",
+                    "isCorrect": false
+                },
+                {
+                    "text": "struct {char name[10], int age};",
+                    "isCorrect": false
+                },
+                {
+                    "text": "tout ce qui est mentionné",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "q": "Quelle est la taille d'un type de données int ?",
+            "a": [
+                {
+                    "text": "4 Bytes",
+                    "isCorrect": false
+                },
+                {
+                    "text": "8 Bytes",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Dépend du système/compilateur",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Ne peut être déterminé",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "q": "Lequel est correct en ce qui concerne la taille des types de données ?",
+            "a": [
+                {
+                    "text": "char > int > float",
+                    "isCorrect": false
+                },
+                {
+                    "text": "int > char > float",
+                    "isCorrect": false
+                },
+                {
+                    "text": "char < int < double",
+                    "isCorrect": true
+                },
+                {
+                    "text": "double > char > int",
+                    "isCorrect": false
+                }
+            ]
+        }
+    ]
+}

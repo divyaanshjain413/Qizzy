@@ -1,0 +1,92 @@
+{
+    "Questions": [
+        {
+            "id": 0,
+            "q": "The format identifier ‘%i’ is also used for which data type?",
+            "a": [
+                {
+                    "text": "char",
+                    "isCorrect": false
+                },
+                {
+                    "text": "float",
+                    "isCorrect": false
+                },
+                {
+                    "text": "int",
+                    "isCorrect": true
+                },
+                {
+                    "text": "double",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "q": "Which of the following is a User-defined data type?",
+            "a": [
+                {
+                    "text": "typedef int Boolean;",
+                    "isCorrect": false
+                },
+                {
+                    "text": "typedef enum {Mon, Tue, Wed, Thu, Fri} Workdays;",
+                    "isCorrect": false
+                },
+                {
+                    "text": "struct {char name[10], int age};",
+                    "isCorrect": false
+                },
+                {
+                    "text": "all of the mentioned",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "q": "What is the size of an int data type?",
+            "a": [
+                {
+                    "text": "4 Bytes",
+                    "isCorrect": false
+                },
+                {
+                    "text": "8 Bytes",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Depends on the system/compiler",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Cannot be determined",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "q": "Which is correct with respect to the size of the data types?",
+            "a": [
+                {
+                    "text": "char > int > float",
+                    "isCorrect": false
+                },
+                {
+                    "text": "int > char > float",
+                    "isCorrect": false
+                },
+                {
+                    "text": "char < int < double",
+                    "isCorrect": true
+                },
+                {
+                    "text": "double > char > int",
+                    "isCorrect": false
+                }
+            ]
+        }
+    ]
+}
